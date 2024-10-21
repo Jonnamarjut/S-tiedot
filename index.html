@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Säätiedot</title>
+</head>
+<body>
+    <div>
+        <h3>Säätiedot kohteessasi</h3>
+        <p><span id="lat"></span><span id="lng"></span></p>
+        <p>Lämpötila <span id="temp"></span></p>
+        <p>Tuulen nopeus <span id="speed"></span></p>
+        <p>Tuulen suunta <span id="direction"></span></p>
+        <p id="description"></p>
+        <div class="image-wrapper">
+            <img id="img" src="" alt="Säälogo">
+            <p>Kuvan linkki ei toiminut itsellä, siksi rikkinäinen kuva</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/functions.js"></script>
+</body>
+</html>
